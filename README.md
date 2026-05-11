@@ -28,21 +28,23 @@ The system is divided into four main components:
 ## 🚀 Getting Started
 1. Prerequisites:
 
-Docker Desktop installed and running.
+* Docker Desktop installed and running.
 
-Python 3.10+
+* Python 3.10+
 
 2. Installation & Setup:
+
 Bash
 # Clone the repository
-git clone https://github.com/yourusername/Anomaly-Detection-System.git
-cd Anomaly-Detection-System
+* git clone https://github.com/yourusername/Anomaly-Detection-System.git
+* cd Anomaly-Detection-System
 
 # Start the Infrastructure (Kafka & Zookeeper)
-docker-compose up -d
+* docker-compose up -d
 
 # Install dependencies
 pip install -r requirements.txt
+
 3. Running the Pipeline
 Open three separate terminals:
 
