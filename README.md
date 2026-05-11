@@ -1,7 +1,7 @@
-🚀 Distributed Real-Time Anomaly Detection System
+🚀 Distributed Real-Time Anomaly Detection System:
 A high-performance monitoring pipeline that uses Machine Learning to detect system irregularities in real-time. Built with a microservices architecture to demonstrate scalability and SDE best practices.
 
-🏗️ System Architecture
+🏗️ System Architecture:
 The system is divided into four main components:
 
 Log Producer: Simulates a high-traffic server environment generating telemetry data (CPU, RAM, Latency).
@@ -12,8 +12,8 @@ ML Inference Engine: An Isolation Forest model that analyzes the stream to ident
 
 Live Dashboard: A FastAPI web interface providing real-time observability.
 
-🛠️ Tech Stack
-Language: Python 3.x
+🛠️ Tech Stack -
+Language: Python 3.13
 
 Infrastructure: Docker, Apache Kafka, Zookeeper
 
